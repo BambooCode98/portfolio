@@ -1,0 +1,69 @@
+body, html{
+  margin: 0;
+  padding: 0;
+}
+
+
+/* svg elements */
+
+.wave1 {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave1 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 50px;
+  transform: rotateY(180deg);
+}
+
+.wave1 .shape-fill {
+  fill: #000000;
+}
+
+.wave2 {
+  position: absolute;
+  /* top: 0; */
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave2 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.5px);
+  height: 50px;
+  transform: rotateY(180deg);
+}
+
+.wave2 .shape-fill {
+  fill: #000000;
+}
+
+/* first section */
+.body1{
+  background-image: url('../images/mountains.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 100vh;
+}
+/* second section */
+
+.body2{
+  background-image: url('../images/sky.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 100vh;
+}
