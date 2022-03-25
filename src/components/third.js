@@ -3,6 +3,7 @@
 
 export default function ThirdSection() {
 
+  
 
   return(
     <div className="body3">
@@ -11,6 +12,7 @@ export default function ThirdSection() {
         <img 
         src={ require('../images/projects/dcvillains.png')}
         className='dc'
+        // onMouseEnter={}
         />
         <img 
         src={ require('../images/projects/storepage.png')}
