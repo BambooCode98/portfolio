@@ -13,14 +13,7 @@ body, html{
 
 
 /* fonts, words, and other text */
-/* .headerFonts{
-  font-family: Playfair Display;
-  margin: 0;
-  margin-left: 25px;
-  position: absolute;
-  top: 35%;
-  left: 35%;
-} */
+
 
 /* svg elements */
 
@@ -180,12 +173,50 @@ body, html{
   left: 5%;
 }
 
-.sec2para{
-  color: white;
+.sec2list{
+  color: #ffffff;
   font-size: 2em;
   position: absolute;
-  top: 20%;
+  top: 25%;
   left: 15%;
+}
+
+.sec2text{
+  color: #ffffff;
+  font-size: 1.5em;
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  width: 35%;
+}
+
+@media screen and (max-width: 575px) {
+  .sec2text{
+    color: #ffffff;
+    font-size: 1em;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header2{
+    color: #ffffff;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+  }
+
+  .sec2text{
+    color: #ffffff;
+    font-size: 1em;
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    width: 45%;
+  }
 }
 
 /* third section */
@@ -198,6 +229,98 @@ body, html{
   background-attachment: fixed;
   background-position: center center;
   height: 100vh;
+}
+
+.header3{
+  color: #000000;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+
+.proContainer{
+  position: absolute;
+  top: 35%;
+  left: 0;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+  height: 50%;
+  width: 100%;
+}
+
+.dc, .storepage, .todolist, .weatherapp{
+  position: absolute;
+  height: 25%;
+  width: 25%;
+  margin: 0;
+  border: 2px solid black; 
+}
+
+.dc{
+  top: 25%;
+  left: 5%;
+}
+
+.storepage{
+  top: 25%;
+  left: 45%;
+}
+
+.todolist{
+  top: 60%;
+  left: 45%;
+}
+
+.weatherapp{
+  top: 60%;
+  left: 5%;
+}
+
+@media screen and (max-width: 400px) {
+  .body3{
+    position: relative;
+    display: flex;
+    background-image: url('../images/storm.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    min-height: 100vh;
+  }
+
+  .header3{
+    color: #000000;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+  }
+
+  .dc, .storepage, .todolist, .weatherapp{
+    position: absolute;
+    height: 15%;
+    width: 85%;
+    margin: 0;
+    border: 2px solid black; 
+  }
+  
+  .dc{
+    top: 25%;
+    left: 5%;
+  }
+  
+  .storepage{
+    top: 42%;
+    left: 5%;
+  }
+  
+  .todolist{
+    top: 59%;
+    left: 5%;
+  }
+  
+  .weatherapp{
+    top: 76%;
+    left: 5%;
+  }
 }
 
 /* fourth section */
