@@ -238,21 +238,88 @@ body, html{
   left: 5%;
 }
 
-.proContainer{
-  position: absolute;
+.projContainer{
+  position: relative;
   top: 35%;
   left: 0;
-  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr; */
   margin: 0;
-  height: 50%;
+  height: 0;
   width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%;
 }
 
-.tooltip1{
-  display: block;
+.leftArrow, .rightArrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  background-color: rgb(228, 228, 228);
+  border:rgb(228, 228, 228) 1px solid;
+  border-radius: 45px;
+  font-size: 1.5em;
+  z-index: 2;
+  margin: 0;
+  padding-bottom: 2px;
+}
+
+.leftArrow:hover, .rightArrow:hover{
+  background: rgb(155, 155, 155);
+}
+
+.leftArrow{
   position: absolute;
-  left: 25%;
-  top: 25%;
+  top: 32%;
+  left: 11%;
+}
+
+.rightArrow{
+  position: absolute;
+  top: 32%;
+  left: 84%;
+}
+
+.dot1, .dot2, .dot3, .dot4{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(228, 228, 228, 0.247);
+  border:rgba(228, 228, 228, 0.247) 1px solid;
+  border-radius: 45px;
+}
+
+.dot1{
+  top: 90%;
+  left: 42%;
+}
+
+.dot2{
+  top: 90%;
+  left: 47%;
+}
+
+.dot3{
+  top: 90%;
+  left: 52%;
+}
+
+.dot4{
+  top: 90%;
+  left: 57%;
+}
+
+.dc, .storepage, .todolist, .weatherapp{
+  position: absolute;
+  top: 0;
+  left: 10%;
+  /* display: inline-block; */
+  height: 80%;
+  width: 80%;
+  /* border: 3px ridge black; */
+  border-radius: 3px;
+  white-space: nowrap;
 }
 
 /* .tooltip1:hover{
@@ -260,7 +327,7 @@ body, html{
 } */
 
 
-.dc, .storepage, .todolist, .weatherapp{
+/* .dc, .storepage, .todolist, .weatherapp{
   position: absolute;
   height: 25%;
   width: 25%;
@@ -339,7 +406,7 @@ body, html{
     top: 76%;
     left: 5%;
   }
-}
+} */
 
 /* fourth section */
 
