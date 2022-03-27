@@ -3,6 +3,7 @@ body, html{
   padding: 0;
   overflow: none;
   font-family: Playfair Display;
+
 }
 
 .secondDiv{
@@ -238,11 +239,25 @@ body, html{
   left: 5%;
 }
 
+.sect3text{
+  position: absolute;
+  font-weight: 700;
+  top: 25%;
+  left: 5%;
+}
+
+.projectTitle{
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+}
+
 .projContainer{
   position: relative;
   top: 35%;
   left: 0;
-  /* grid-template-columns: 1fr 1fr; */
   margin: 0;
   height: 0;
   width: 100%;
@@ -263,6 +278,7 @@ body, html{
   z-index: 2;
   margin: 0;
   padding-bottom: 2px;
+  cursor: pointer;
 }
 
 .leftArrow:hover, .rightArrow:hover{
@@ -271,22 +287,22 @@ body, html{
 
 .leftArrow{
   position: absolute;
-  top: 32%;
+  top: 35%;
   left: 11%;
 }
 
 .rightArrow{
   position: absolute;
-  top: 32%;
-  left: 84%;
+  top: 35%;
+  left: 83%;
 }
 
 .dot1, .dot2, .dot3, .dot4{
   position: absolute;
   width: 10px;
   height: 10px;
-  background-color: rgba(228, 228, 228, 0.247);
-  border:rgba(228, 228, 228, 0.247) 1px solid;
+  background-color: #e4e4e43f;
+  border:#e4e4e43f 1px solid;
   border-radius: 45px;
 }
 
@@ -310,103 +326,169 @@ body, html{
   left: 57%;
 }
 
-.dc, .storepage, .todolist, .weatherapp{
+.DC, .Storepage, .Todolist, .WeatherApp{
   position: absolute;
   top: 0;
   left: 10%;
-  /* display: inline-block; */
   height: 80%;
   width: 80%;
-  /* border: 3px ridge black; */
-  border-radius: 3px;
-  white-space: nowrap;
-}
-
-/* .tooltip1:hover{
-  display: block;
-} */
-
-
-/* .dc, .storepage, .todolist, .weatherapp{
-  position: absolute;
-  height: 25%;
-  width: 25%;
-  margin: 0;
   border: 3px ridge black;
-  border-radius: 3px;
+  border-radius: 0.5px;
+  white-space: nowrap;
+  opacity: 1;
+  transition: opacity 5s;
 }
 
-.dc:hover, .storepage:hover, .todolist:hover, .weatherapp:hover{
-  transform: scale(1.01);
-}
-
-.dc{
-  top: 25%;
-  left: 5%;
-}
-
-.storepage{
-  top: 25%;
-  left: 45%;
-}
-
-.todolist{
-  top: 60%;
-  left: 45%;
-}
-
-.weatherapp{
-  top: 60%;
-  left: 5%;
-}
-
-@media screen and (max-width: 400px) {
-  .body3{
+@media only screen and (min-width: 550px) and (max-width: 950px) {
+  .projContainer{
     position: relative;
-    display: flex;
-    background-image: url('../images/storm.png');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-    min-height: 100vh;
-  }
-
-  .header3{
-    color: #000000;
-    position: absolute;
-    top: 10%;
-    left: 5%;
-  }
-
-  .dc, .storepage, .todolist, .weatherapp{
-    position: absolute;
-    height: 15%;
-    width: 85%;
+    top: 29.5%;
+    left: 0;
     margin: 0;
-    border: 2px solid black; 
-    border-radius: 3px;
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 45.25%;
+  }
+
+  .sect3text{
+    position: absolute;
+    font-weight: 700;
+    top: 22%;
+    left: 5%;
+  }
+
+  .projectTitle{
+    position: absolute;
+    top: 69%;
+    left: 45%;
   }
   
-  .dc{
+  .leftArrow, .rightArrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(228, 228, 228);
+    border:rgb(228, 228, 228) 1px solid;
+    border-radius: 45px;
+    font-size: 1.5em;
+    z-index: 2;
+    margin: 0;
+    padding-bottom: 2px;
+    cursor: pointer;
+  }
+  
+  .leftArrow:hover, .rightArrow:hover{
+    background: rgb(155, 155, 155);
+  }
+  
+  .leftArrow{
+    position: absolute;
+    top: 32%;
+    left: 11%;
+  }
+  
+  .rightArrow{
+    position: absolute;
+    top: 32%;
+    left: 82%;
+  }
+  
+  .dot1, .dot2, .dot3, .dot4{
+    position: absolute;
+    top: 45%;
+    width: 10px;
+    height: 10px;
+    background-color: #e4e4e43f;
+    border:#e4e4e43f 1px solid;
+    border-radius: 45px;
+    z-index: 3;
+  }
+  
+  .dot1{
+    top: 90%;
+    left: 42%;
+  }
+  
+  .dot2{
+    top: 90%;
+    left: 47%;
+  }
+  
+  .dot3{
+    top: 90%;
+    left: 52%;
+  }
+  
+  .dot4{
+    top: 90%;
+    left: 57%;
+  }
+  
+  .DC, .Storepage, .Todolist, .Weatherapp{
+    position: absolute;
+    top: 0;
+    left: 10%;
+    height: 80%;
+    width: 80%;
+    border: 3px ridge black;
+    border-radius: 0.5px;
+    white-space: nowrap;
+    opacity: 1;
+    transition: opacity 5s;
+  }
+}
+
+@media only screen and (min-width: 951px) and (max-width: 1150px) {
+  .projectTitle{
+    position: absolute;
+    top: 26%;
+    left: 46%;
+    color: #000000;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .projContainer{
+    position: relative;
     top: 25%;
-    left: 5%;
+    left: 0;
+    margin: 0;
+    height: 0;
+    width: 80%;
+    overflow: hidden;
+    padding-top: 40.25%;
   }
-  
-  .storepage{
-    top: 42%;
-    left: 5%;
+
+  .sect3text{
+    position: absolute;
+    font-weight: 700;
+    top: 25%;
+    left: 75%;
   }
-  
-  .todolist{
-    top: 59%;
-    left: 5%;
+
+  .projectTitle{
+    position: absolute;
+    top: 63%;
+    left: 75%;
+    color: black;
+    font-size: 2em;
   }
-  
-  .weatherapp{
-    top: 76%;
-    left: 5%;
+
+  .leftArrow{
+    position: absolute;
+    top: 40%;
+    left: 11%;
   }
-} */
+
+  .rightArrow{
+    position: absolute;
+    top: 40%;
+    left: 87%;
+  }
+}
 
 /* fourth section */
 
@@ -426,3 +508,26 @@ body, html{
   top: 15%;
   left: 15%;
 }
+
+.formContainer{
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  width: 75%;
+  height: 50%;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.body, .name, .email,.subject, .submit{
+  margin-bottom: 5%;
+  font-family: Playfair Display;
+}
+
+.name, .email,.subject, .submit{
+  height: 25px;
+}
+
