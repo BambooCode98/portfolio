@@ -18,7 +18,7 @@ body, html{
 
 /* svg elements */
 
-.wave1 {
+/* .wave1 {
   position: absolute;
   bottom: -1px;
   left: 0;
@@ -47,7 +47,6 @@ body, html{
 
 .wave2 {
   position: absolute;
-  /* top: 0; */
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -71,7 +70,7 @@ body, html{
   fill: #000000;
   z-index: 5;
 
-}
+} */
 
 .wave3 {
   position: absolute;
@@ -89,7 +88,7 @@ body, html{
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 50px;
+  height: 25px;
   transform: rotateY(180deg);
   z-index: 5;
 
@@ -117,7 +116,7 @@ body, html{
   position: relative;
   display: block;
   width: calc(100% + 1.5px);
-  height: 50px;
+  height: 25px;
   transform: rotateY(180deg);
   z-index: 5;
 
@@ -127,6 +126,27 @@ body, html{
   fill: #000000;
   z-index: 5;
 
+}
+
+@media screen and (min-width:950px) {
+  .wave3 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 45px;
+    transform: rotateY(180deg);
+    z-index: 5;
+  
+  }
+  .wave4 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.5px);
+    height: 45px;
+    transform: rotateY(180deg);
+    z-index: 5;
+  
+  }
 }
 
 /* first section */
@@ -152,6 +172,13 @@ body, html{
   top: 38%;
   left: 38%;
   width: 45%;
+  animation-name: fade;
+  animation-duration: 8s;
+}
+
+@keyframes fade {
+ 0%   {opacity: 0;}
+ 100% {opacity: 1;}
 }
 
 
@@ -248,15 +275,15 @@ body, html{
 
 .projectTitle{
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 5%;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 2em;
 }
 
 .projContainer{
   position: relative;
-  top: 35%;
+  top: 37%;
   left: 0;
   margin: 0;
   height: 0;
@@ -332,7 +359,7 @@ body, html{
   left: 10%;
   height: 80%;
   width: 80%;
-  border: 3px ridge black;
+  border: 3px solid black;
   border-radius: 0.5px;
   white-space: nowrap;
   opacity: 1;
@@ -466,7 +493,7 @@ body, html{
     position: absolute;
     font-weight: 700;
     top: 25%;
-    left: 75%;
+    left: 74%;
   }
 
   .projectTitle{
@@ -505,7 +532,7 @@ body, html{
 .header4{
   position: absolute;
   color: #ffffff;
-  top: 15%;
+  top: 8%;
   left: 15%;
 }
 
@@ -513,8 +540,12 @@ body, html{
   position: absolute;
   top: 35%;
   left: 15%;
-  width: 75%;
+  width: 50%;
   height: 50%;
+  background-color: #e2e2e256;
+  padding: 7%;
+  border: ridge #34b154;
+  border-radius: 25px;
 }
 
 .form{
@@ -527,7 +558,190 @@ body, html{
   font-family: Playfair Display;
 }
 
-.name, .email,.subject, .submit{
+.name, .email, .subject{
   height: 25px;
 }
 
+.body{
+  margin-bottom: 10px;
+  height: 35px;
+}
+
+.submit{
+  /* padding-top: 2.5%; */
+  position: absolute;
+  top: 96%;
+  left: 27%;
+  height: 35px;
+  width: 45%;
+  border: ridge #34b154;
+  background-color: #9fdda4;
+  border-radius: 25px;
+}
+
+.submit:hover{
+  background-color: #6e9c72;
+}
+
+.details{
+  position: absolute;
+  top: 17.9%;
+  left: 15%;
+  width: 49%;
+  height: 12%;
+  background-color: #57965d83;
+  border: ridge #34b154;
+  /* background-color: #9fdda4; */
+  border-radius: 25px;
+  padding: 2%;
+}
+
+.contactItems{
+  list-style-type: none;
+  color: white;
+  margin: 0;
+  padding: 4px;
+}
+
+.ContactEmail{
+  position: relative;
+}
+
+.ContactEmail, .ContactGithub{
+  padding: 1.5%;
+  font-size: 0.8em;
+}
+
+.githubMark{
+  width: 25px;
+  height: 25px;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 950px) {
+  .formContainer{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    width: 50%;
+    height: 40%;
+    background-color: #e2e2e256;
+    padding: 4%;
+    border: ridge #34b154;
+    border-radius: 25px;
+  }
+  
+  .submit{
+    /* padding-top: 2.5%; */
+    position: absolute;
+    top: 97%;
+    left: 27%;
+    height: 35px;
+    width: 45%;
+    border: ridge #34b154;
+    background-color: #9fdda4;
+    border-radius: 25px;
+  }
+
+  .body{
+    margin-bottom: 10px;
+    /* height: 35px; */
+  }
+}
+
+@media only screen and (min-width: 951px) and (max-width: 1150px) {
+  .formContainer{
+    position: absolute;
+    top: 32%;
+    left: 15%;
+    width: 25%;
+    height: 40%;
+    background-color: #e2e2e256;
+    padding: 4%;
+    border: ridge #34b154;
+    border-radius: 25px;
+  }
+
+  .submit{
+    /* padding-top: 2.5%; */
+    position: absolute;
+    top: 97%;
+    left: 27%;
+    height: 35px;
+    width: 45%;
+    border: ridge #34b154;
+    background-color: #9fdda4;
+    border-radius: 25px;
+  }
+
+  .details{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    width: 25%;
+    background-color: #57965d83;
+    border: ridge #34b154;
+    /* background-color: #9fdda4; */
+    border-radius: 25px;
+    padding: 2%;
+  }
+
+  .body{
+    margin-bottom: 10px;
+    height: 50%;
+  }
+}
+
+@media screen and (min-width: 1151px) {
+  .header4{
+    position: absolute;
+    color: #000000;
+    top: 15%;
+    left: 45%;
+  }
+
+  .formContainer{
+    position: absolute;
+    top: 33%;
+    left: 12%;
+    width: 25%;
+    height: 40%;
+    background-color: #e2e2e256;
+    padding: 4%;
+    border: ridge #34b154;
+    border-radius: 25px;
+  }
+
+  .submit{
+    /* padding-top: 2.5%; */
+    position: absolute;
+    top: 97%;
+    left: 27%;
+    height: 35px;
+    width: 45%;
+    border: ridge #34b154;
+    background-color: #9fdda4;
+    border-radius: 25px;
+  }
+
+  .details{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    width: 20%;
+    background-color: #57965d83;
+    border: ridge #34b154;
+    /* background-color: #9fdda4; */
+    border-radius: 25px;
+    padding: 2%;
+  }
+
+  .ContactEmail, .ContactGithub{
+    padding: 1.5%;
+    font-size: 1.2em;
+  }
+
+  .body{
+    margin-bottom: 10px;
+    height: 50%;
+  }
+}

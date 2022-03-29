@@ -19,7 +19,7 @@ export default function FourthSection() {
 
   return(
     <div className="body4">
-      <h1 className="header4">Contact</h1>
+      <h1 className="header4">Contact Me</h1>
       <div className="formContainer">
         <form ref={form} onSubmit={sendEmail} className="form">
           <input 
@@ -53,6 +53,19 @@ export default function FourthSection() {
           value="Send"
           />
         </form>
+      </div>
+      <div className="details">
+        <ul className="contactItems">
+          <li className="ContactEmail">Email: jw.thomas98@yahoo.com</li>
+          <li className="ContactGithub">Github: BambooCode98 
+            <a href="https://github.com/BambooCode98" target="_blank">
+              <img
+                src={require('../images/GitHub-Mark-120px-plus.png')}
+                className="githubMark"
+              />
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   );

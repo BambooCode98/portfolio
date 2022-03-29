@@ -7,25 +7,29 @@ import weatherapp from '../images/projects/weatherapp.png';
 const images = [
   {
     path: dc, 
-    title: 'DC', 
+    title: 'DC',
+    infoLink: 'https://github.com/BambooCode98/DC-Villians',
     link: 'https://bamboocode98.github.io/DC-Villians/',
     id: 1
   },
   {
     path: storepage, 
-    title: 'Storepage', 
+    title: 'Storepage',
+    infoLink: 'https://github.com/BambooCode98/restaurant-page',
     link: 'https://bamboocode98.github.io/restaurant-page/',
     id: 2
   }, 
   {
     path: todolist, 
     title: 'Todolist',
+    infoLink: 'https://github.com/BambooCode98/to-do-list',
     link: 'https://bamboocode98.github.io/to-do-list/',
     id: 3
   }, 
   {
     path: weatherapp, 
     title: 'WeatherApp',
+    infoLink: 'https://github.com/BambooCode98/weather-app',
     link: 'https://bamboocode98.github.io/weather-app/',
     id: 4
   }
@@ -92,7 +96,7 @@ export default function ThirdSection() {
       <p className='sect3text'>Click on the project for a live demo, or click on the project title for an overview.</p>
       <div className='projContainer'>
         <p className='leftArrow' onClick={leftClick}>&lt;</p>
-        <a href={images[index].link}>
+        <a href={images[index].link} target="_blank">
         <img 
         src={images[index].path}
         alt={images[index].title}
@@ -105,7 +109,9 @@ export default function ThirdSection() {
         <div className='dot3' style={{backgroundColor: color3}}/>
         <div className='dot4' style={{backgroundColor: color4}}/>
       </div>
-      <h3 className='projectTitle'>{images[index].title}</h3>
+      <a href={images[index].infoLink} target="_blank">
+        <h3 className='projectTitle'>{images[index].title}</h3>
+      </a>
     </div>
   );
 }
