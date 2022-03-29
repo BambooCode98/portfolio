@@ -18,7 +18,6 @@ export default function SecondSection() {
         <li className="git">Git</li>
         <li className="npm">npm</li>
       </ul>
-      {/* <p className="sec2text">The listed programming languages/frameworks reflect my ability to be able to create a project from scratch with the knowledge I currently have.</p> */}
      </div>
   );
 }

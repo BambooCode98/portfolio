@@ -170,10 +170,13 @@ body, html{
 .sec1para{
   position: absolute;
   top: 38%;
-  left: 38%;
+  left: 39%;
   width: 45%;
+}
+
+.sec1para-animation{
   animation-name: fade;
-  animation-duration: 8s;
+  animation-duration: 4s;
 }
 
 @keyframes fade {
@@ -532,7 +535,7 @@ body, html{
 .header4{
   position: absolute;
   color: #ffffff;
-  top: 8%;
+  top: 7%;
   left: 15%;
 }
 
@@ -564,7 +567,7 @@ body, html{
 
 .body{
   margin-bottom: 10px;
-  height: 35px;
+  height: 10em;
 }
 
 .submit{
@@ -585,7 +588,7 @@ body, html{
 
 .details{
   position: absolute;
-  top: 17.9%;
+  top: 19%;
   left: 15%;
   width: 49%;
   height: 12%;
@@ -593,7 +596,7 @@ body, html{
   border: ridge #34b154;
   /* background-color: #9fdda4; */
   border-radius: 25px;
-  padding: 2%;
+  padding: 1.5%;
 }
 
 .contactItems{
@@ -609,12 +612,15 @@ body, html{
 
 .ContactEmail, .ContactGithub{
   padding: 1.5%;
-  font-size: 0.8em;
+  font-size: 95%;
 }
 
 .githubMark{
   width: 25px;
   height: 25px;
+  position: absolute;
+  top: 5%;
+  left: 79%;
 }
 
 @media only screen and (min-width: 550px) and (max-width: 950px) {
@@ -644,7 +650,13 @@ body, html{
 
   .body{
     margin-bottom: 10px;
-    /* height: 35px; */
+    height: 50%;
+  }
+
+  .githubMark{
+    width: 25px;
+    height: 25px;
+    position: static;
   }
 }
 
@@ -688,6 +700,12 @@ body, html{
   .body{
     margin-bottom: 10px;
     height: 50%;
+  }
+
+  .githubMark{
+    width: 25px;
+    height: 25px;
+    position: static;
   }
 }
 
@@ -743,5 +761,11 @@ body, html{
   .body{
     margin-bottom: 10px;
     height: 50%;
+  }
+
+  .githubMark{
+    width: 25px;
+    height: 25px;
+    position: static;
   }
 }

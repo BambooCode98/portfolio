@@ -3,6 +3,7 @@ import FourthSection from './components/fourth';
 import SecondSection from './components/second';
 import ThirdSection from './components/third';
 import './styles/app.css';
+import './styles/sideways.css';
 
 function App() {
   return (
