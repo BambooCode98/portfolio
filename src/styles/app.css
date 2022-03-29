@@ -176,14 +176,25 @@ body, html{
 
 .sec1para-animation{
   animation-name: fade;
-  animation-duration: 4s;
+  animation-duration: 8s;
+}
+
+.sec1para-animation2{
+  animation-name: fade2;
+  animation-duration: 8s;
 }
 
 @keyframes fade {
- 0%   {opacity: 0;}
- 100% {opacity: 1;}
+  0%   {opacity: 0;}
+  50%  {opacity: 1;}
+  100% {opacity: 0;}
 }
 
+@keyframes fade2 {
+  0%   {opacity: 0;}
+  50%  {opacity: 1;}
+  100% {opacity: 0;}
+ }
 
 /* second section */
 

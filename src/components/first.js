@@ -8,10 +8,12 @@ export default function FirstSection() {
     {
       message: 'My name is James Thomas, and I am aiming to be a self-taught full stack developer. My main interests are in frontend and backend development.', 
       id: 0,
+      styles: 'sec1para-animation',
     },
     {
       message: 'I am a very quick learner, and have the ability to put the things I learn into use very quickly. I am motivated by challenges, and enjoy working on difficult problems.', 
       id: 1,
+      styles: 'sec1para-animation',
     }
   ]
 
@@ -32,13 +34,16 @@ export default function FirstSection() {
   }, [textNum])
  
   useEffect(() => {
-    if(animateClass === '') {
-      setTimeout(() => {
-        setAnimateClass('sec1para-animation');
-      },8000);
-    } else if (animateClass === 'sec1para-animation') {
+    if(animateClass === 'sec1para-animation2') {
       setTimeout(() => {
         setAnimateClass('');
+        setAnimateClass('sec1para-animation');
+      }, 8000);
+    }
+    if (animateClass === 'sec1para-animation') {
+      setTimeout(() => {
+        setAnimateClass('');
+        setAnimateClass('sec1para-animation2');
       }, 8000);
     }
   }, [animateClass])
@@ -48,7 +53,9 @@ export default function FirstSection() {
     <div className="body1">
       <h1 className="header">About Me</h1>
       <div className="sec1para">
-        <p className={animateClass} >{texts[textNum].message}</p>
+        <p className={animateClass}>
+          {texts[textNum].message}
+        </p>
       </div>
     </div>
   );
