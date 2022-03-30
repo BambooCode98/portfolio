@@ -17,19 +17,16 @@ export default function FirstSection() {
     }
   ]
 
-  console.log(textNum);
-  console.log(animateClass);
-
   useEffect(() => {
     if(textNum === 0) {
       setTimeout(() => {
         setTextNum(1);
-      }, 8000);
+      }, 9000);
     }
     if (textNum === 1) {
       setTimeout(() => {
         setTextNum(0);
-      }, 8000);
+      }, 9000);
     }
   }, [textNum])
  
@@ -38,13 +35,13 @@ export default function FirstSection() {
       setTimeout(() => {
         setAnimateClass('');
         setAnimateClass('sec1para-animation');
-      }, 8000);
+      }, 9000);
     }
     if (animateClass === 'sec1para-animation') {
       setTimeout(() => {
         setAnimateClass('');
         setAnimateClass('sec1para-animation2');
-      }, 8000);
+      }, 9000);
     }
   }, [animateClass])
 

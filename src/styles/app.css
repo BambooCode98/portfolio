@@ -176,12 +176,12 @@ body, html{
 
 .sec1para-animation{
   animation-name: fade;
-  animation-duration: 8s;
+  animation-duration: 9s;
 }
 
 .sec1para-animation2{
   animation-name: fade2;
-  animation-duration: 8s;
+  animation-duration: 9s;
 }
 
 @keyframes fade {

@@ -4,6 +4,7 @@ import SecondSection from './components/second';
 import ThirdSection from './components/third';
 import './styles/app.css';
 import './styles/sideways.css';
+import './styles/otherScreens.css';
 
 function App() {
   return (

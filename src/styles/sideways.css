@@ -4,7 +4,7 @@
     padding: 0;
     overflow: none;
     font-family: Playfair Display;
-    min-width: 105vw;
+    min-width: 110vw;
   }
   
   .secondDiv{
@@ -21,24 +21,22 @@
   
   .wave3 {
     position: absolute;
-    bottom: -1px;
+    bottom: 1px;
     left: 0;
-    width: 100%;
+    width: 117vw;
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
     z-index: 5;
-  
   }
   
   .wave3 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 25px;
+    height: 29px;
     transform: rotateY(180deg);
     z-index: 5;
-  
   }
   
   .wave3 .shape-fill {
@@ -49,9 +47,9 @@
   
   .wave4 {
     position: absolute;
-    /* top: 0; */
+    top: -1.9px;
     left: 0;
-    width: 100%;
+    width: 117vw;
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
@@ -63,10 +61,9 @@
     position: relative;
     display: block;
     width: calc(100% + 1.5px);
-    height: 25px;
+    height: 29px;
     transform: rotateY(180deg);
     z-index: 5;
-  
   }
   
   .wave4 .shape-fill {
@@ -105,7 +102,7 @@
     background-attachment: fixed;
     background-position: center center;
     min-height: 100vh;
-    /* width: 110vw; */
+    min-width: 117vw;
   }
   
   .header{
@@ -139,6 +136,7 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
+    min-width: 117vw;
     height: 100vh;
   }
   
@@ -216,6 +214,7 @@
     background-attachment: fixed;
     background-position: center center;
     height: 100vh;
+    min-width: 117vw;
   }
   
   .header3{
@@ -484,6 +483,7 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
+    min-width: 117vw;
     height: 100vh;
   }
   
@@ -600,7 +600,7 @@
   
     .submit{
       position: absolute;
-      top: 97%;
+      top: 94%;
       left: 27%;
       height: 35px;
       width: 45%;

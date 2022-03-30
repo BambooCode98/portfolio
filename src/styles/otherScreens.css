@@ -1,0 +1,186 @@
+
+
+
+
+@media screen and (min-width: 900px) and (max-height: 700px) {
+
+
+
+  /* section 3 */
+
+  .projContainer{
+    position: relative;
+    top: 25%;
+    left: 0;
+    margin: 0;
+    height: 0;
+    width: 80%;
+    overflow: hidden;
+    padding-top: 40.25%;
+  }
+
+  .sect3text{
+    position: absolute;
+    font-weight: 700;
+    top: 25%;
+    left: 74%;
+  }
+
+  .projectTitle{
+    position: absolute;
+    top: 63%;
+    left: 75%;
+    color: black;
+    font-size: 2em;
+  }
+
+  .leftArrow{
+    position: absolute;
+    top: 40%;
+    left: 11%;
+  }
+
+  .rightArrow{
+    position: absolute;
+    top: 40%;
+    left: 87%;
+  }
+
+  /* section 4 */
+
+  .header4{
+    position: absolute;
+    color: #000000;
+    top: 15%;
+    left: 45%;
+  }
+
+  .formContainer{
+    position: absolute;
+    top: 33%;
+    left: 11%;
+    width: 25%;
+    height: 40%;
+    background-color: #e2e2e256;
+    padding: 4%;
+    border: ridge #34b154;
+    border-radius: 25px;
+  }
+
+  .submit{
+    position: absolute;
+    top: 97%;
+    left: 27%;
+    height: 35px;
+    width: 45%;
+    border: ridge #34b154;
+    background-color: #9fdda4;
+    border-radius: 25px;
+  }
+
+  .details{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    width: 25%;
+    height: 20%;
+    background-color: #57965d83;
+    border: ridge #34b154;
+    border-radius: 25px;
+    padding: 2%;
+  }
+
+  .ContactEmail, .ContactGithub{
+    padding: 1.5%;
+    font-size: 1.2em;
+  }
+
+  .body{
+    margin-bottom: 10px;
+    height: 7em;
+  }
+
+  .githubMark{
+    width: 25px;
+    height: 25px;
+    position: static;
+  }
+}
+
+@media screen and (min-width: 1050px) and (max-height: 700px) {
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* section 4 */
+  .header4{
+    position: absolute;
+    color: #000000;
+    top: 15%;
+    left: 45%;
+  }
+
+  .formContainer{
+    position: absolute;
+    top: 33%;
+    left: 11%;
+    width: 25%;
+    height: 40%;
+    background-color: #e2e2e256;
+    padding: 4%;
+    border: ridge #34b154;
+    border-radius: 25px;
+  }
+
+  .submit{
+    position: absolute;
+    top: 97%;
+    left: 27%;
+    height: 35px;
+    width: 45%;
+    border: ridge #34b154;
+    background-color: #9fdda4;
+    border-radius: 25px;
+  }
+
+  .details{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    width: 20%;
+    background-color: #57965d83;
+    border: ridge #34b154;
+    border-radius: 25px;
+    padding: 2%;
+  }
+
+  .ContactEmail, .ContactGithub{
+    padding: 1.5%;
+    font-size: 1.2em;
+  }
+
+  .body{
+    margin-bottom: 10px;
+    height: 7em;
+  }
+
+  .githubMark{
+    width: 25px;
+    height: 25px;
+    position: static;
+  }
+}
