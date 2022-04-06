@@ -21,12 +21,12 @@ export default function FirstSection() {
     if(textNum === 0) {
       setTimeout(() => {
         setTextNum(1);
-      }, 11000);
+      }, 12000);
     }
     if (textNum === 1) {
       setTimeout(() => {
         setTextNum(0);
-      }, 11000);
+      }, 12000);
     }
   }, [textNum])
  
@@ -35,13 +35,13 @@ export default function FirstSection() {
       setTimeout(() => {
         setAnimateClass('');
         setAnimateClass('sec1para-animation');
-      }, 11000);
+      }, 12000);
     }
     if (animateClass === 'sec1para-animation') {
       setTimeout(() => {
         setAnimateClass('');
         setAnimateClass('sec1para-animation2');
-      }, 11000);
+      }, 12000);
     }
   }, [animateClass])
 

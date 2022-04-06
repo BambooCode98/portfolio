@@ -17,6 +17,7 @@ export default function SecondSection() {
         <li className="react">React</li>
         <li className="git">Git</li>
         <li className="npm">npm</li>
+        <li className="node">Node.js</li>
       </ul>
      </div>
   );
