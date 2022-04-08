@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0c513f57.css",
-    "main.js": "/portfolio/static/js/main.e234a7d6.js",
+    "main.css": "/portfolio/static/css/main.7b363e99.css",
+    "main.js": "/portfolio/static/js/main.c6dfb136.js",
     "static/media/triplesundogsEdited.png": "/portfolio/static/media/triplesundogsEdited.e4c26e4b7738328523b3.png",
     "static/media/storm.png": "/portfolio/static/media/storm.48e9c5482fe5241660f5.png",
     "static/media/storepage.png": "/portfolio/static/media/storepage.7f4d43df8c9a9e76c9ac.png",
     "static/media/dcvillains.png": "/portfolio/static/media/dcvillains.befe3ed6ab624e3640a3.png",
     "static/media/mountains.png": "/portfolio/static/media/mountains.4f46bdf053e2c7ed2dde.png",
     "static/media/sky.png": "/portfolio/static/media/sky.99712b2a32cb18c5a865.png",
+    "static/media/portfolioPicture.png": "/portfolio/static/media/portfolioPicture.74cf6dbf39f85545e7a5.png",
     "static/media/weatherapp.png": "/portfolio/static/media/weatherapp.e9b2f5d067af62c49787.png",
     "static/media/todolist.png": "/portfolio/static/media/todolist.074e1f982429b8c9465c.png",
     "index.html": "/portfolio/index.html",
-    "main.0c513f57.css.map": "/portfolio/static/css/main.0c513f57.css.map",
-    "main.e234a7d6.js.map": "/portfolio/static/js/main.e234a7d6.js.map"
+    "main.7b363e99.css.map": "/portfolio/static/css/main.7b363e99.css.map",
+    "main.c6dfb136.js.map": "/portfolio/static/js/main.c6dfb136.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c513f57.css",
-    "static/js/main.e234a7d6.js"
+    "static/css/main.7b363e99.css",
+    "static/js/main.c6dfb136.js"
   ]
 }
