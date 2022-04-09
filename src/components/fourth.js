@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useRef } from "react";
 import emailjs from 'emailjs-com';
 
 export default function FourthSection() {
@@ -58,10 +58,11 @@ export default function FourthSection() {
         <ul className="contactItems">
           <li className="ContactEmail">Email: jw.thomas98@yahoo.com</li>
           <li className="ContactGithub">Github: BambooCode98 
-            <a href="https://github.com/BambooCode98" target="_blank">
+            <a href="https://github.com/BambooCode98" target="_blank" rel='noreferrer'>
               <img
                 src={require('../images/GitHub-Mark-120px-plus.png')}
                 className="githubMark"
+                alt="github"
               />
             </a>
           </li>

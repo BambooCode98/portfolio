@@ -48,6 +48,7 @@ export default function FirstSection() {
 
   return(
     <div className="body1">
+      <img src={require('../images/portfolioPicture.png')} className="myPic" alt="My Portfolio Pic"/>
       <h1 className="header">About Me</h1>
       <div className="sec1para">
         <p className={animateClass}>

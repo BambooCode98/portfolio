@@ -96,7 +96,7 @@ export default function ThirdSection() {
       <p className='sect3text'>Click on the project for a live demo, or click on the project title for an overview.</p>
       <div className='projContainer'>
         <p className='leftArrow' onClick={leftClick}>&lt;</p>
-        <a href={images[index].link} target="_blank" >
+        <a href={images[index].link} target="_blank" rel='noreferrer' >
         <img 
         src={images[index].path}
         alt={images[index].title}
@@ -109,7 +109,7 @@ export default function ThirdSection() {
         <div className='dot3' style={{backgroundColor: color3}}/>
         <div className='dot4' style={{backgroundColor: color4}}/>
       </div>
-      <a href={images[index].infoLink} target="_blank">
+      <a href={images[index].infoLink} target="_blank" rel='noreferrer'>
         <h3 className='projectTitle'>{images[index].title}</h3>
       </a>
     </div>
