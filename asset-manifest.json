@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8d0b704e.css",
-    "main.js": "/portfolio/static/js/main.32e995d9.js",
+    "main.js": "/portfolio/static/js/main.dfc26e98.js",
     "static/media/triplesundogsEdited.png": "/portfolio/static/media/triplesundogsEdited.e4c26e4b7738328523b3.png",
+    "static/media/drawingapp.png": "/portfolio/static/media/drawingapp.0c8c1c6a5bc12c93ad89.png",
     "static/media/storm.png": "/portfolio/static/media/storm.48e9c5482fe5241660f5.png",
     "static/media/storepage.png": "/portfolio/static/media/storepage.7f4d43df8c9a9e76c9ac.png",
-    "static/media/dcvillains.png": "/portfolio/static/media/dcvillains.befe3ed6ab624e3640a3.png",
     "static/media/mountains.png": "/portfolio/static/media/mountains.4f46bdf053e2c7ed2dde.png",
     "static/media/sky.png": "/portfolio/static/media/sky.99712b2a32cb18c5a865.png",
     "static/media/portfolioPicture.png": "/portfolio/static/media/portfolioPicture.74cf6dbf39f85545e7a5.png",
@@ -13,10 +13,10 @@
     "static/media/todolist.png": "/portfolio/static/media/todolist.074e1f982429b8c9465c.png",
     "index.html": "/portfolio/index.html",
     "main.8d0b704e.css.map": "/portfolio/static/css/main.8d0b704e.css.map",
-    "main.32e995d9.js.map": "/portfolio/static/js/main.32e995d9.js.map"
+    "main.dfc26e98.js.map": "/portfolio/static/js/main.dfc26e98.js.map"
   },
   "entrypoints": [
     "static/css/main.8d0b704e.css",
-    "static/js/main.32e995d9.js"
+    "static/js/main.dfc26e98.js"
   ]
 }
