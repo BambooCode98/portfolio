@@ -1,15 +1,15 @@
 import { useState, useEffect } from 'react';
-import dc from '../images/projects/dcvillains.png';
+import drawing from '../images/projects/drawingapp.png';
 import storepage from '../images/projects/storepage.png';
 import todolist from '../images/projects/todolist.png';
 import weatherapp from '../images/projects/weatherapp.png';
 
 const images = [
   {
-    path: dc, 
-    title: 'DC',
-    infoLink: 'https://github.com/BambooCode98/DC-Villians',
-    link: 'https://bamboocode98.github.io/DC-Villians/',
+    path: drawing, 
+    title: 'Drawing App',
+    infoLink: 'https://github.com/BambooCode98/drawing-app',
+    link: 'https://bamboocode98.github.io/drawing-app/',
     id: 1
   },
   {
@@ -21,14 +21,14 @@ const images = [
   }, 
   {
     path: todolist, 
-    title: 'Todolist',
+    title: 'Todo List',
     infoLink: 'https://github.com/BambooCode98/to-do-list',
     link: 'https://bamboocode98.github.io/to-do-list/',
     id: 3
   }, 
   {
     path: weatherapp, 
-    title: 'WeatherApp',
+    title: 'Weather App',
     infoLink: 'https://github.com/BambooCode98/weather-app',
     link: 'https://bamboocode98.github.io/weather-app/',
     id: 4
@@ -100,7 +100,7 @@ export default function ThirdSection() {
         <img 
         src={images[index].path}
         alt={images[index].title}
-        className={images[index].title}
+        className={images[index].path}
         />
         </a>
         <p className='rightArrow' onClick={rightClick}>&gt;</p>

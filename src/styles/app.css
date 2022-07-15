@@ -476,7 +476,7 @@ body, html{
   left: 57%;
 }
 
-.DC, .Storepage, .Todolist, .WeatherApp{
+.drawing, .storepage, .todolist, .weatherApp{
   position: absolute;
   top: 0;
   left: 10%;
@@ -577,7 +577,7 @@ body, html{
     left: 57%;
   }
   
-  .DC, .Storepage, .Todolist, .Weatherapp{
+  .drawing, .storepage, .todolist, .weatherapp{
     position: absolute;
     top: 0;
     left: 10%;
