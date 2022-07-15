@@ -4,6 +4,7 @@ import storepage from '../images/projects/storepage.png';
 import todolist from '../images/projects/todolist.png';
 import weatherapp from '../images/projects/weatherapp.png';
 
+
 const images = [
   {
     path: drawing, 
@@ -11,7 +12,7 @@ const images = [
     infoLink: 'https://github.com/BambooCode98/drawing-app',
     link: 'https://bamboocode98.github.io/drawing-app/',
     id: 1, 
-    classNames: drawing
+    classNames: 'drawings'
   },
   {
     path: storepage, 
@@ -19,7 +20,7 @@ const images = [
     infoLink: 'https://github.com/BambooCode98/restaurant-page',
     link: 'https://bamboocode98.github.io/restaurant-page/',
     id: 2,
-    classNames: storepage
+    classNames: 'storepages'
   }, 
   {
     path: todolist, 
@@ -27,7 +28,7 @@ const images = [
     infoLink: 'https://github.com/BambooCode98/to-do-list',
     link: 'https://bamboocode98.github.io/to-do-list/',
     id: 3,
-    classNames: todolist
+    classNames: 'todolists'
   }, 
   {
     path: weatherapp, 
@@ -35,7 +36,7 @@ const images = [
     infoLink: 'https://github.com/BambooCode98/weather-app',
     link: 'https://bamboocode98.github.io/weather-app/',
     id: 4,
-    classNames: weatherapp
+    classNames: 'weatherapps'
   }
 ]
 

@@ -340,7 +340,7 @@
     left: 57%;
   }
   
-  .drawing, .storepage, .todolist, .weatherapp{
+  .drawings, .storepages, .todolists, .weatherapps{
     position: absolute;
     top: 0;
     left: 10%;
@@ -441,7 +441,7 @@
       left: 55%;
     }
     
-    .drawing, .storepage, .todolist, .weatherapp{
+    .drawings, .storepages, .todolists, .weatherapps{
       position: absolute;
       top: 25%;
       left: 20%;
