@@ -10,28 +10,32 @@ const images = [
     title: 'Drawing App',
     infoLink: 'https://github.com/BambooCode98/drawing-app',
     link: 'https://bamboocode98.github.io/drawing-app/',
-    id: 1
+    id: 1, 
+    classNames: drawing
   },
   {
     path: storepage, 
     title: 'Storepage',
     infoLink: 'https://github.com/BambooCode98/restaurant-page',
     link: 'https://bamboocode98.github.io/restaurant-page/',
-    id: 2
+    id: 2,
+    classNames: storepage
   }, 
   {
     path: todolist, 
     title: 'Todo List',
     infoLink: 'https://github.com/BambooCode98/to-do-list',
     link: 'https://bamboocode98.github.io/to-do-list/',
-    id: 3
+    id: 3,
+    classNames: todolist
   }, 
   {
     path: weatherapp, 
     title: 'Weather App',
     infoLink: 'https://github.com/BambooCode98/weather-app',
     link: 'https://bamboocode98.github.io/weather-app/',
-    id: 4
+    id: 4,
+    classNames: weatherapp
   }
 ]
 
@@ -100,7 +104,7 @@ export default function ThirdSection() {
         <img 
         src={images[index].path}
         alt={images[index].title}
-        className={images[index].path}
+        className={images[index].classNames}
         />
         </a>
         <p className='rightArrow' onClick={rightClick}>&gt;</p>
