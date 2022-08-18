@@ -6,12 +6,22 @@ import Canvas from './components/Canvas';
 import './styles/app.css';
 import './styles/sideways.css';
 import './styles/otherScreens.css';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="app">
       <Canvas>
-        
+        <Header/>
+        <div className='mainDiv'>
+          <div className='bubbleDiv1'>
+            
+          </div>
+          <div className='bubbleDiv2'>
+
+          </div>
+
+        </div>
       </Canvas>
       {/* <FirstSection /> */}
       {/* <div className='secondDiv'>
