@@ -15,13 +15,18 @@ function App() {
         <Header/>
         <div className='mainDiv'>
           <div className='bubbleDiv1'>
-            
+            {/* <img src={require('./images/portfolioPicture2.png')} /> */}
           </div>
           <div className='bubbleDiv2'>
-
+            <h1 className='about'>About Me</h1>
+            <p className='aboutText'>My name is James Thomas.</p>
+          </div>
+          <div className='bubbleDiv3'>
+            <p></p>
           </div>
 
         </div>
+        {/* turn the current code into a page component and make the projects and contacts into component pages. these apge will then be flipped/navigated betweeen with react router */}
       </Canvas>
       {/* <FirstSection /> */}
       {/* <div className='secondDiv'>

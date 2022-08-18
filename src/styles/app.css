@@ -69,6 +69,9 @@ a{
 .bubbleDiv1{
   border-radius: 50%;
   background-color: rgb(98, 148, 144);
+  background-image: url('../images/portfolioPicture2.png');
+  background-size: cover;
+  background-position: center center;
   position: absolute;
   top: 10%;
   left: -50%;
@@ -81,13 +84,47 @@ a{
 .bubbleDiv2{
   border-radius: 50%;
   background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* align-items: center; */
   position: absolute;
-  top: 100%;
+  top: 512px;
   right: -50%;
   height: 400px;
   width: 400px;
   overflow: hidden;
   z-index: -5;
+  color:white;
+}
+
+.about{
+  color: inherit;
+  /* position: relative;
+  top: 25%;
+  right: 16%; */
+  border-bottom: 2px solid white;
+}
+
+.aboutText{
+  color:inherit;
+}
+
+.bubbleDiv3{
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* align-items: center; */
+  position: absolute;
+  top: 150%;
+  left: -50%;
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+  z-index: -5;
+  color:white;
 }
 
 @media screen and (min-width:550px)  {
