@@ -64,6 +64,11 @@ a{
   color: #3b8aaf;
 }
 
+a:hover{
+  color: rgb(223, 223, 223);
+  transition:color 200ms ease-in-out;
+}
+
 /* bubbleDivs in App styles */
 
 .bubbleDiv1{
@@ -74,12 +79,14 @@ a{
   background-position: center center;
   position: absolute;
   top: 10%;
-  left: -50%;
+  left: -180px;
   height: 500px;
   width: 500px;
   overflow: hidden;
   z-index: -5;
 }
+
+
 
 .bubbleDiv2{
   border-radius: 50%;
@@ -90,7 +97,7 @@ a{
   /* align-items: center; */
   position: absolute;
   top: 512px;
-  right: -50%;
+  right: -175px;
   height: 400px;
   width: 400px;
   overflow: hidden;
@@ -98,17 +105,19 @@ a{
   color:white;
 }
 
-.about{
-  color: inherit;
-  /* position: relative;
-  top: 25%;
-  right: 16%; */
-  border-bottom: 2px solid white;
-}
+  .about{
+    color: inherit;
+    /* position: relative;
+    top: 25%;
+    right: 16%; */
+    border-bottom: 2px solid white;
+  }
 
-.aboutText{
-  color:inherit;
-}
+  .aboutText{
+    color:inherit;
+  }
+
+
 
 .bubbleDiv3{
   border-radius: 50%;
@@ -116,15 +125,215 @@ a{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /* align-items: center; */
+  /* align-items: flex-end; */
   position: absolute;
-  top: 150%;
-  left: -50%;
+  top: 800px;
+  left: -185px;
   height: 400px;
   width: 400px;
   overflow: hidden;
   z-index: -5;
   color:white;
+}
+
+  .aboutText2{
+    color:inherit;
+    position: relative;
+    left: 50%;
+    height: 100%;
+    width: 30%;
+    padding-top: 40px;
+  }
+
+.bubbleDiv4{
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* align-items: flex-end; */
+  position: absolute;
+  top: 1100px;
+  right: -180px;
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+  z-index: -5;
+  color:white;
+}
+
+.bubbleDiv5{
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* align-items: flex-end; */
+  position: absolute;
+  top: 1400px;
+  left: -180px;
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+  z-index: -5;
+  color:white;
+}
+
+.bubbleDiv6{
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* align-items: flex-end; */
+  position: absolute;
+  top: 1700px;
+  right: -180px;
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+  z-index: -5;
+  color:white;
+}
+
+.bubbleDiv7{
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* align-items: flex-end; */
+  position: absolute;
+  top: 2000px;
+  left: -180px;
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+  z-index: -5;
+  color:white;
+}
+
+.bubbleDiv8{
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* align-items: flex-end; */
+  position: absolute;
+  top: 2300px;
+  right: -180px;
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+  z-index: -5;
+  color:white;
+}
+
+/* Projects Page */
+
+.bubbleDivProject1{
+  border-radius: 50%;
+  background-image: url('../images/projects/drawingapp.png');
+  background-color: rgb(98, 148, 144);
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: 300px;
+  left: -180px;
+  height: 500px;
+  width: 500px;
+  overflow: hidden;
+  z-index: -5;
+  display: flex;
+  justify-content: center;
+}
+
+.bubbleDivP2{
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* align-items: center; */
+  position: absolute;
+  top: 500px;
+  right: -175px;
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+  z-index: -5;
+  color:white;
+}
+
+  .p1{
+    /* margin-top: 3%; */
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0));
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+    padding-left: 1%;
+  }
+
+  .p2head{
+    width: ;
+  }
+
+  .p2text{
+
+  }
+
+.bubbleDivProject2{
+  border-radius: 50%;
+  background-image: url('../images/projects/storepage.png');
+  background-color: rgb(98, 148, 144);
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: 900px;
+  left: -185px;
+  height: 500px;
+  width: 500px;
+  overflow: hidden;
+  z-index: -5;
+  display: flex;
+  justify-content: center;
+}
+
+.bubbleDivProject3{
+  border-radius: 50%;
+  background-image: url('../images/projects/weatherapp.png');
+  background-color: rgb(98, 148, 144);
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: 1500px;
+  left: -185px;
+  height: 500px;
+  width: 500px;
+  overflow: hidden;
+  z-index: -5;
+  display: flex;
+  justify-content: center;
+}
+
+.bubbleDivProject4{
+  border-radius: 50%;
+  background-image: url('../images/projects/bambooshoots1.png');
+  background-color: rgb(98, 148, 144);
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: 2100px;
+  left: -185px;
+  height: 500px;
+  width: 500px;
+  overflow: hidden;
+  z-index: -5;
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (min-width:550px)  {
@@ -136,11 +345,28 @@ a{
 }
 
 @media screen and (min-width:750px)  {
-  
+  .mainDiv{
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    overflow-x: visible;
+  }
 }
 
 @media screen and (min-width:850px)  {
-  
+  .mainDiv{
+    width:45%;
+    position: absolute;
+    left:25%;
+    overflow-x: visible;
+  }
+
+  /* header component styles */
+
+  .header{
+    padding: 2% 2%;
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (min-width:950px)  {

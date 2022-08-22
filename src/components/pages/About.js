@@ -1,27 +1,11 @@
-import FirstSection from './components/first';
-import FourthSection from './components/fourth';
-import SecondSection from './components/second';
-import ThirdSection from './components/third';
-import Canvas from './components/Canvas';
-import './styles/app.css';
-import Header from './components/Header';
-import About from './components/pages/About';
-import Projects from './components/pages/Projects';
-import Contact from './components/pages/Contact';
-import { Routes,Route, Link } from 'react-router-dom'
+import React from 'react'
+import '/home/immyj/Documents/portfolio/src/styles/app.css';
 
 
-function App() {
+export default function About() {
   return (
-    <div className="app">
-      <Canvas>
-        <Header/>
-        <Routes>
-          <Route path="/" element={<About/>}/>
-          <Route path="/projects" element={<Projects/>}/>
-          <Route path="/contact" element={<Contact/>}/>
-        </Routes>
-        {/* <div className='mainDiv'>
+    <>
+      <div className='mainDiv'>
           <div className='bubbleDiv1'>
           </div>
           <div className='bubbleDiv2'>
@@ -48,12 +32,7 @@ function App() {
             </p>
           </div>
 
-        </div> */}
-        {/* <About/> */}
-        {/* turn the current code into a page component and make the projects and contacts into component pages. these pages will then be flipped/navigated betweeen with react router */}
-      </Canvas>
-    </div>
-  );
+        </div>
+    </>
+  )
 }
-
-export default App;
