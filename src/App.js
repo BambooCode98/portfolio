@@ -17,9 +17,9 @@ function App() {
       <Canvas>
         <Header/>
         <Routes>
-          <Route path="/" element={<About/>}/>
-          <Route path="/projects" element={<Projects/>}/>
-          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/portfolio/about" element={<About/>}/>
+          <Route path="/portfolio/projects" element={<Projects/>}/>
+          <Route path="/portfolio/contact" element={<Contact/>}/>
         </Routes>
       </Canvas>
     </div>

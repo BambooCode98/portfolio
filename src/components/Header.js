@@ -11,9 +11,9 @@ export default function Header() {
         <p className='name'>James Thomas</p>
         <div className='linkDiv'>
           {/* <a href="#About">About</a> */}
-          <Link to="/">About</Link>
+          <Link to="/portfolio/about">About</Link>
           {/* <a href="#About">Projects</a> */}
-          <Link to="/projects">Projects</Link>
+          <Link to="/portfolio/projects">Projects</Link>
           <a href="Contact">Contact</a>
         </div>
       </div>
