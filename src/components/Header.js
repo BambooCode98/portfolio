@@ -14,7 +14,9 @@ export default function Header() {
           <Link to="/portfolio/about">About</Link>
           {/* <a href="#About">Projects</a> */}
           <Link to="/portfolio/projects">Projects</Link>
-          <a href="Contact">Contact</a>
+          {/* <a href="Contact">Contact</a> */}
+          <Link to="/portfolio/contact">Contacts</Link>
+
         </div>
       </div>
     </>

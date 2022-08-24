@@ -6,7 +6,7 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename={'/portfolio/'}>
+    <BrowserRouter basename={'/portfolio/about'}>
       <App />
     </BrowserRouter>
   </React.StrictMode>,
