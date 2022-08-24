@@ -11,6 +11,12 @@ export default function Canvas({children}) {
     const ctx = canvas.getContext('2d');
     ctx.canvas.width = window.innerWidth;
     ctx.canvas.height = window.outerHeight+250;
+    window.screen.orientation.addEventListener('change', (e) => {
+      e.preventDefault();
+      ctx.canvas.width = window.innerWidth+100;
+      ctx.canvas.height = window.outerHeight+250;
+      ctx.fillStyle = 'white'
+    })
     ctx.fillStyle = 'white'
     function createParticle(x,y,size,g,w,color) {
       let gravity = g;

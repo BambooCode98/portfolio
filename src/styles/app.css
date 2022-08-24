@@ -615,6 +615,14 @@ a:hover{
   }
 }
 
+@media screen and (max-height:360px) {
+  .header{
+    /* padding: 2% 2%;
+    font-size: 1.5rem; */
+    width: 120%;
+  }
+}
+
 
 /* override browser styles */
 
