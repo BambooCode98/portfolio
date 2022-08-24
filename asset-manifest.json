@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f9032a21.css",
-    "main.js": "/portfolio/static/js/main.6bd8ae23.js",
-    "static/media/portfolioPicture2.png": "/portfolio/static/media/portfolioPicture2.4f9f89658cc519ed1282.png",
-    "static/media/drawingapp.png": "/portfolio/static/media/drawingapp.0c8c1c6a5bc12c93ad89.png",
-    "static/media/bambooshoots1.png": "/portfolio/static/media/bambooshoots1.521a01b90a935abedd62.png",
-    "static/media/storepage.png": "/portfolio/static/media/storepage.7f4d43df8c9a9e76c9ac.png",
-    "static/media/portfolioPicture.png": "/portfolio/static/media/portfolioPicture.74cf6dbf39f85545e7a5.png",
-    "static/media/weatherapp.png": "/portfolio/static/media/weatherapp.e9b2f5d067af62c49787.png",
-    "static/media/todolist.png": "/portfolio/static/media/todolist.074e1f982429b8c9465c.png",
-    "index.html": "/portfolio/index.html",
-    "main.f9032a21.css.map": "/portfolio/static/css/main.f9032a21.css.map",
-    "main.6bd8ae23.js.map": "/portfolio/static/js/main.6bd8ae23.js.map"
+    "main.css": "/portfolio/about/static/css/main.4d1c7f0e.css",
+    "main.js": "/portfolio/about/static/js/main.aaac58fa.js",
+    "static/media/portfolioPicture2.png": "/portfolio/about/static/media/portfolioPicture2.4f9f89658cc519ed1282.png",
+    "static/media/drawingapp.png": "/portfolio/about/static/media/drawingapp.0c8c1c6a5bc12c93ad89.png",
+    "static/media/bambooshoots1.png": "/portfolio/about/static/media/bambooshoots1.521a01b90a935abedd62.png",
+    "static/media/storepage.png": "/portfolio/about/static/media/storepage.7f4d43df8c9a9e76c9ac.png",
+    "static/media/portfolioPicture.png": "/portfolio/about/static/media/portfolioPicture.74cf6dbf39f85545e7a5.png",
+    "static/media/weatherapp.png": "/portfolio/about/static/media/weatherapp.e9b2f5d067af62c49787.png",
+    "static/media/todolist.png": "/portfolio/about/static/media/todolist.074e1f982429b8c9465c.png",
+    "index.html": "/portfolio/about/index.html",
+    "main.4d1c7f0e.css.map": "/portfolio/about/static/css/main.4d1c7f0e.css.map",
+    "main.aaac58fa.js.map": "/portfolio/about/static/js/main.aaac58fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9032a21.css",
-    "static/js/main.6bd8ae23.js"
+    "static/css/main.4d1c7f0e.css",
+    "static/js/main.aaac58fa.js"
   ]
 }
