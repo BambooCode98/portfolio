@@ -43,11 +43,12 @@ export default function Canvas({children}) {
 
     function particles() {
       for(let i=0; i<50; i++) {
-        particleArray.push(createParticle(Math.random()*canvas.width*10,Math.random()*canvas.height*10,Math.random()*10,Math.random()*10,Math.sin((Math.random()*2)-1),'blue'))
+        particleArray.push(createParticle(Math.random()*canvas.width*10,Math.random()*canvas.height*10,Math.random()*10,Math.random()*3,Math.sin((Math.random()*2)-1),'blue'))
       }
     
     }
     particles()
+
 
     function animate() {
       ctx.clearRect(0,0,canvas.width,canvas.height);
