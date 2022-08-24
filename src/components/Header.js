@@ -11,11 +11,11 @@ export default function Header() {
         <p className='name'>James Thomas</p>
         <div className='linkDiv'>
           {/* <a href="#About">About</a> */}
-          <Link to="/portfolio/about">About</Link>
+          <Link to="/">About</Link>
           {/* <a href="#About">Projects</a> */}
-          <Link to="/portfolio/projects">Projects</Link>
+          <Link to="/projects">Projects</Link>
           {/* <a href="Contact">Contact</a> */}
-          <Link to="/portfolio/contact">Contacts</Link>
+          <Link to="/contact">Contacts</Link>
 
         </div>
       </div>
