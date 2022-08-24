@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f9032a21.css",
-    "main.js": "/portfolio/static/js/main.b3e30445.js",
-    "static/media/portfolioPicture2.png": "/portfolio/static/media/portfolioPicture2.4f9f89658cc519ed1282.png",
-    "static/media/drawingapp.png": "/portfolio/static/media/drawingapp.0c8c1c6a5bc12c93ad89.png",
-    "static/media/bambooshoots1.png": "/portfolio/static/media/bambooshoots1.521a01b90a935abedd62.png",
-    "static/media/storepage.png": "/portfolio/static/media/storepage.7f4d43df8c9a9e76c9ac.png",
-    "static/media/portfolioPicture.png": "/portfolio/static/media/portfolioPicture.74cf6dbf39f85545e7a5.png",
-    "static/media/weatherapp.png": "/portfolio/static/media/weatherapp.e9b2f5d067af62c49787.png",
-    "static/media/todolist.png": "/portfolio/static/media/todolist.074e1f982429b8c9465c.png",
-    "index.html": "/portfolio/index.html",
-    "main.f9032a21.css.map": "/portfolio/static/css/main.f9032a21.css.map",
-    "main.b3e30445.js.map": "/portfolio/static/js/main.b3e30445.js.map"
+    "main.css": "/static/css/main.ca7bea9c.css",
+    "main.js": "/static/js/main.3a871f3e.js",
+    "static/media/portfolioPicture2.png": "/static/media/portfolioPicture2.4f9f89658cc519ed1282.png",
+    "static/media/drawingapp.png": "/static/media/drawingapp.0c8c1c6a5bc12c93ad89.png",
+    "static/media/bambooshoots1.png": "/static/media/bambooshoots1.521a01b90a935abedd62.png",
+    "static/media/storepage.png": "/static/media/storepage.7f4d43df8c9a9e76c9ac.png",
+    "static/media/portfolioPicture.png": "/static/media/portfolioPicture.74cf6dbf39f85545e7a5.png",
+    "static/media/weatherapp.png": "/static/media/weatherapp.e9b2f5d067af62c49787.png",
+    "static/media/todolist.png": "/static/media/todolist.074e1f982429b8c9465c.png",
+    "index.html": "/index.html",
+    "main.ca7bea9c.css.map": "/static/css/main.ca7bea9c.css.map",
+    "main.3a871f3e.js.map": "/static/js/main.3a871f3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9032a21.css",
-    "static/js/main.b3e30445.js"
+    "static/css/main.ca7bea9c.css",
+    "static/js/main.3a871f3e.js"
   ]
 }
