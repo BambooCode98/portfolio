@@ -40,7 +40,7 @@ export default function Projects() {
             <h2 className='p2head4'>BambooShoots</h2>
             <p className='p2text4'>This is a fullstack photo upload application created with Next.js, React, Prisma, Postgres, and Node.js. Users can login to the app and upload photos of their choice, change their profile picture, and sign out.</p>
             <a className='pcode' href="https://github.com/BambooCode98/BambooShoots" target="_blank" rel="noopener noreferrer">Github Code</a>
-            <a className='plink' href="https://bambooshoots.herokuapp.com" target="_blank" rel="noopener noreferrer">BambooShoots</a>
+            <a className='plink' href="https://bamboo-shoots.vercel.app" target="_blank" rel="noopener noreferrer">BambooShoots</a>
           </div>
 
       </div>
