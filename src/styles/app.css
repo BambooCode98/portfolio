@@ -22,12 +22,27 @@ canvas{
   background-color: #ADCBCC;
 }
 
+.maindivprime{
+  width: 100%;
+  position: absolute;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  z-index: 5;
+  height: 100vh;
+  display: inline-block;
+
+}
+
+.maindivprime::-webkit-scrollbar{
+  display: none;
+}
+
 .mainDiv{
   position: absolute;
   overflow-x: hidden;
   height: 100%;
   width: 100%;
-
 }
 
 /* header component styles */
@@ -42,6 +57,7 @@ canvas{
   display: flex;
   justify-content: space-between;
   padding:5% 2%;
+  z-index: 100;
 }
 
 .name{
@@ -74,7 +90,7 @@ a:hover{
 .bubbleDiv1{
   border-radius: 50%;
   background-color: rgb(98, 148, 144);
-  background-image: url('../images/portfolioPicture2.png');
+  background-image: url('../images/portfolio_pic_cropped.jpg');
   background-size: cover;
   background-position: center center;
   position: absolute;
@@ -231,6 +247,13 @@ a:hover{
 }
 
 /* Projects Page */
+
+.myprojects{
+  position: relative;
+  top: 20%;
+  font-size: 3rem;
+  text-align: center;
+}
 
 .bubbleDivProject1{
   border-radius: 50%;
@@ -535,6 +558,10 @@ a:hover{
     overflow-x: visible;
   }
 
+  .maindivprime{
+    /* height: 100vh; */
+  }
+
   .aboutText2{
     text-align: center;
     left: 35%;
@@ -579,6 +606,10 @@ a:hover{
     left: 25%;
     overflow-x: visible;
   }
+
+  .myprojects{
+    top: 10%;
+  }
 }
 
 @media screen and (min-width:850px)  {
@@ -594,6 +625,7 @@ a:hover{
   .header{
     padding: 2% 2%;
     font-size: 1.5rem;
+    position: sticky;
   }
 }
 

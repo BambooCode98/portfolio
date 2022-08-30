@@ -13,10 +13,10 @@ export default function About() {
             <p className='aboutText'>My name is James Thomas.</p>
           </div>
           <div className='bubbleDiv3'>
-            <p className='aboutText2'>I am aspiring to be a software developer, game developer, and someone that makes interesting webpages.
+            <p className='aboutText2'>I am a fullstack developer.
             <br/>
             <br/>
-            I enjoy coding because it is a subject that gives me the ability to create so many things.
+            I enjoy coding because it is a subject that gives me the ability to create whatever comes to mind, solve problems, and develop problem-solving skills.
             </p>
           </div>
           <div className='bubbleDiv4'>

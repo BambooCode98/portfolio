@@ -4,6 +4,7 @@ export default function Projects() {
   return (
     <>
       <div className='mainDiv'>
+          <h1 className="myprojects">Projects</h1>
           <div className='bubbleDivProject1'>
             <h1 className='p1'>Project 1</h1>
           </div>

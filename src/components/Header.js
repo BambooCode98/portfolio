@@ -1,7 +1,6 @@
 import React from 'react'
-import { Routes,Route, Link } from 'react-router-dom'
-import About from './pages/About'
-import Projects from './pages/Projects'
+import { Link } from 'react-router-dom'
+
 
 export default function Header() {
   return (
@@ -15,7 +14,7 @@ export default function Header() {
           {/* <a href="#About">Projects</a> */}
           <Link to="/projects">Projects</Link>
           {/* <a href="Contact">Contact</a> */}
-          <Link to="/contact">Contacts</Link>
+          <Link to="/contact">Contact</Link>
 
         </div>
       </div>
