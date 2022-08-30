@@ -6,13 +6,12 @@ import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 import { Routes,Route} from 'react-router-dom';
-import { useRef, useEffect } from 'react'
+import { useRef } from 'react'
 
 
 function App() {
-  const mainDivContext = useRef(null)
-  // console.log(mainDivContext.current.clientHeight);
-  // let height = window.innerHeight - 
+  // const mainDivContext = useRef(null)
+  
 
 
   return (
