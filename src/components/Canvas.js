@@ -11,6 +11,8 @@ export default function Canvas({children}) {
     const ctx = canvas.getContext('2d');
     ctx.canvas.width = window.innerWidth;
     ctx.canvas.height = window.outerHeight+250;
+    ctx.shadowColor = "white";
+    ctx.shadowBlur = 20;
     window.screen.orientation.addEventListener('change', (e) => {
       e.preventDefault();
       ctx.canvas.width = window.innerWidth+100;
