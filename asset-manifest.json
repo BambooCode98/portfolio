@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.93b654a9.css",
-    "main.js": "/portfolio/static/js/main.5b30fd0e.js",
+    "main.css": "/portfolio/static/css/main.649f3167.css",
+    "main.js": "/portfolio/static/js/main.fca26c2a.js",
     "static/media/drawingapp.png": "/portfolio/static/media/drawingapp.0c8c1c6a5bc12c93ad89.png",
     "static/media/bambooshoots1.png": "/portfolio/static/media/bambooshoots1.521a01b90a935abedd62.png",
     "static/media/storepage.png": "/portfolio/static/media/storepage.7f4d43df8c9a9e76c9ac.png",
     "static/media/portfolio_pic_cropped.jpg": "/portfolio/static/media/portfolio_pic_cropped.5a5cfab07ca80b72e3ee.jpg",
     "static/media/weatherapp.png": "/portfolio/static/media/weatherapp.e9b2f5d067af62c49787.png",
     "index.html": "/portfolio/index.html",
-    "main.93b654a9.css.map": "/portfolio/static/css/main.93b654a9.css.map",
-    "main.5b30fd0e.js.map": "/portfolio/static/js/main.5b30fd0e.js.map"
+    "main.649f3167.css.map": "/portfolio/static/css/main.649f3167.css.map",
+    "main.fca26c2a.js.map": "/portfolio/static/js/main.fca26c2a.js.map"
   },
   "entrypoints": [
-    "static/css/main.93b654a9.css",
-    "static/js/main.5b30fd0e.js"
+    "static/css/main.649f3167.css",
+    "static/js/main.fca26c2a.js"
   ]
 }
