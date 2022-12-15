@@ -86,6 +86,11 @@ export default function Contact() {
           <div className='bubbleDiv3'>
             <h1 className='chead3'>Email</h1>
             <p className='c3text'>jw.thomas98@yahoo.com</p>
+            <br/>
+            <h1 className='chead3'>LinkedIn</h1>
+            <a href='https://www.linkedin.com/in/james-thomas-860181238/'>
+              <img src={require('../../images/linkedin.png')} className='linkedin'/>
+            </a>
           </div>
           {/* <div className='bubbleDiv4'>
             
