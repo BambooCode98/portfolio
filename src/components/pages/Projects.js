@@ -18,10 +18,10 @@ export default function Projects() {
           <h1 className='p1'>Project 2</h1>
           </div>
           <div className='bubbleDiv4'>
-            <h2 className='p2head'>Store Page</h2>
-            <p className='p2text'>This is a simple store front page created with HTML5, CSS, and vanilla Javascript.</p>
-            <a className='pcode' href="https://github.com/BambooCode98/restaurant-page" target="_blank" rel="noopener noreferrer">Github Code</a>
-            <a className='plink' href="https://bamboocode98.github.io/restaurant-page/" target="_blank" rel="noopener noreferrer">Store Page</a>
+            <h2 className='p2head'>Special Effects Gallery</h2>
+            <p className='p2text'>This is a gallery of interesting effects, programs, and tests created with Javascript.</p>
+            <a className='pcode' href="https://github.com/BambooCode98/special_effects_gallery" target="_blank" rel="noopener noreferrer">Github Code</a>
+            <a className='plink' href="https://bamboocode98.github.io/special_effects_gallery/" target="_blank" rel="noopener noreferrer">Gallery Page</a>
           </div>
           <div className='bubbleDivProject3'>
             <h1 className='p1'>Project 3</h1>

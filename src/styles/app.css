@@ -188,31 +188,34 @@ a:hover{
   }
 
   .aboutText2{
-    color:inherit;
+    color: inherit;
     position: relative;
     left: 50%;
     /* top: 2%; */
-    height: 100%;
+    height: 85%;
     width: 30%;
-    padding-top: 40px;
-    border-bottom: 1px solid white;
+    padding-left: 10px;
+    border-left: 1px solid white;
   }
 
   .aboutparagraph{
     /* border-right: 1px solid white; */
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     color: inherit;
     position: relative;
     /* left: 20px; */
-    border-bottom: 1px solid white;
+    /* border-bottom: 1px solid white; */
   }
 
   .aboutparagraph2{
     /* border-bottom: 1px solid white; */
     /* border-right: 1px solid white; */
-    /* padding-bottom: 2px; */
+    padding-bottom: 20px;
     color: inherit;
+    position: relative;
   }
+
+
 
 .bubbleDiv4{
   border-radius: 50%;
@@ -270,6 +273,25 @@ a:hover{
   box-shadow: 5px 5px 25px 10px #3b8aaf;
   border: 2px solid #ffffff;
 }
+
+  .aboutTextCTA{
+    color: inherit;
+    position: relative;
+    left: 15%;
+    top: -3%;
+    height: 55%;
+    width: 35%;
+    padding-left: 10px;
+    /* border-left: 1px solid white; */
+  }
+
+  .callToActionPara{
+    border-right: white 1px solid;
+    border-bottom: white 1px solid;
+    color: inherit;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
 
 .bubbleDiv7{
   border-radius: 50%;
@@ -424,7 +446,7 @@ a:hover{
 
 .bubbleDivProject2{
   border-radius: 50%;
-  background-image: url('../images/projects/storepage.png');
+  background-image: url('../images/projects/Special_Effects_Image.png');
   background-color: rgb(98, 148, 144);
   background-size: cover;
   background-position: center center;
@@ -640,7 +662,7 @@ a:hover{
   }
 
   .mainDiv{
-    width: 70%;
+    width: 65%;
     /* position: absolute; */
     left: 15%;
     overflow-x: visible;
@@ -674,7 +696,7 @@ a:hover{
     padding-bottom: 15px;
   }
 
-  .aboutTextextra2{
+  .aboutTextextra2, .aboutText2 {
     border-left: none;
     left: 10%;
     width: 70%;
@@ -685,6 +707,30 @@ a:hover{
   .aboutparagraph, .aboutparagraph2{
     padding-right: 15px;
     padding-left: 15px;
+  }
+
+  .aboutparagraph{
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+
+  }
+
+  .aboutTextCTA{
+    color: inherit;
+    position: relative;
+    left: 10%;
+    /* top: 2%; */
+    height: 55%;
+    width: 75%;
+    padding-left: 10px;
+    /* border-left: 1px solid white; */
+  }
+
+  .callToActionPara{
+    border-right: white 1px solid;
+    border-bottom: white 1px solid;
+    color: inherit;
+    padding: 5%;
   }
 
   .p2text{

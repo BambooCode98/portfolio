@@ -15,10 +15,12 @@ export default function About() {
           <div className='bubbleDiv3'>
             <div className='bd3container'>
               <p className='aboutTextextra'>
-                I am a web developer with a passion to make the internet look good.
+                Hello!
+                <br/>
+                I am a software developer, gardener, and a fan of crazy weather.
               </p>
               <p className='aboutTextextra2'>
-                I enjoy coding because it is a subject that gives me the ability to create whatever comes to mind, solve problems, and develop problem-solving skills.
+                I enjoy coding because it is something that gives me the ability to create whatever comes to mind, solve problems, and develop many other skills.
               </p>
             </div>
           </div>
@@ -30,12 +32,20 @@ export default function About() {
           <div className='bubbleDiv5'>
             <div className='aboutText2'>
               <p className='aboutparagraph'>
-                I enjoy creating websites with interesting geometric designs and effects.
+                I enjoy creating websites with interesting geometric designs, effects, and a nice, clean look.
               </p>
-            {/* <br/> */}
+              <br/>
+              <p className='aboutparagraph2'>
+                My aim is to make websites that are eye-catching, simple, and easily enjoyable. 
+              </p>
+            </div>
+          </div>
+          <div className='bubbleDiv6'>
+            <div className='aboutTextCTA'>
+              
             <br/>
-            <p className='aboutparagraph2'>
-              My aim is to make a clean website that is pleasing to view, simple to understand, and easy to enjoy.
+            <p className='callToActionPara'>
+              If you need a project done, or are looking to hire, my contact information is in the contact section along with a way to email me directly.
             </p>
             </div>
           </div>
