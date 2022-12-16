@@ -72,26 +72,35 @@ export default function Contact() {
           </div>
           <div className='bubbleDiv2'>
             <h1 className='cHead2'>Github</h1>
-            <p className='c2text'>BambooCode98</p>
-            <a href="https://github.com/BambooCode98" target="_blank" rel='noreferrer'>
-              <div className="githubMark">
-                <img
-                  src={require('../../images/GitHub-Mark-120px-plus.png')}
-                  
-                  alt="github"
-                />
-              </div>
-            </a>
-          </div>
-          <div className='bubbleDiv3'>
-            <h1 className='chead3'>Email</h1>
+            <span className='c2container'>
+              <p className='c2text'>BambooCode98
+                <a href="https://github.com/BambooCode98" target="_blank" rel='noreferrer'>
+                  <div className="githubMark">
+                    <img
+                      src={require('../../images/GitHub-Mark-120px-plus.png')}
+                      className="githubimg"
+                      alt="github"
+                    />
+                  </div>
+                </a>
+              </p>
+            </span>
+            <h1 className='chead31'>Email</h1>
             <p className='c3text'>jw.thomas98@yahoo.com</p>
             <br/>
             <h1 className='chead3'>LinkedIn</h1>
-            <a href='https://www.linkedin.com/in/james-thomas-860181238/'>
-              <img src={require('../../images/linkedin.png')} className='linkedin'/>
-            </a>
+            <span>
+              <p  className='c3textN'>James Thomas</p>
+              <a href='https://www.linkedin.com/in/james-thomas-860181238/'>
+                {/* <img src={require('../../images/linkedin.png')} className='linkedin'/> */}
+                <div className='linkedin'>
+
+                </div>
+              </a>
+            </span>
           </div>
+          {/* <div className='bubbleDiv3'>
+          </div> */}
           {/* <div className='bubbleDiv4'>
             
 
