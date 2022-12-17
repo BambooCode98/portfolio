@@ -675,7 +675,7 @@ a:hover{
   }
 
   .linkedin{
-    position: absolute;
+    position: relative;
     bottom: 50px;
     left: 165px;
     width: 25px;
