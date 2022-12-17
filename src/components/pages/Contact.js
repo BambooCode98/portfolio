@@ -90,13 +90,15 @@ export default function Contact() {
             <br/>
             <h1 className='chead3'>LinkedIn</h1>
             <span>
-              <p  className='c3textN'>James Thomas</p>
-              <a href='https://www.linkedin.com/in/james-thomas-860181238/'>
-                {/* <img src={require('../../images/linkedin.png')} className='linkedin'/> */}
-                <div className='linkedin'>
+              <p  className='c3textN'>James Thomas
+                <a href='https://www.linkedin.com/in/james-thomas-860181238/'>
+                  {/* <img src={require('../../images/linkedin.png')} className='linkedin'/> */}
+                  <div className='linkedin'>
 
-                </div>
-              </a>
+                  </div>
+                </a>
+              </p>
+              
             </span>
           </div>
           {/* <div className='bubbleDiv3'>
