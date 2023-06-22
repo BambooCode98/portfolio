@@ -43,10 +43,10 @@ export default function About() {
           <div className='bubbleDiv6'>
             <div className='aboutTextCTA'>
               
-            <br/>
-            <p className='callToActionPara'>
-              If you need a project done, or are looking to hire, my contact information is in the contact section along with a way to email me directly.
-            </p>
+              <br/>
+              <p className='callToActionPara'>
+                If you need a project done, or are looking to hire, my contact information is in the contact section along with a way to email me directly.
+              </p>
             </div>
           </div>
 

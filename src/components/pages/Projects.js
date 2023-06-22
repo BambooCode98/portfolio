@@ -29,9 +29,9 @@ export default function Projects() {
           </div>
           <div className='bubbleDiv6'>
             <h2 className='p2head'>Weather App</h2>
-            <p className='p2text'>This weather app shows the current 5-day forecast for anywhere in the United States. HTML5, CSS, and Javascript were all used to create this webpage.</p>
-            <a className='pcode' href="https://github.com/BambooCode98/weather-app" target="_blank" rel="noopener noreferrer">Github Code</a>
-            <a className='plink' href="https://bamboocode98.github.io/weather-app/" target="_blank" rel="noopener noreferrer">Weather App</a>
+            <p className='p2text'>This weather app shows the current 7-day forecast for anywhere in the United States. HTML5, CSS, and Javascript were all used to create this webpage.</p>
+            <a className='pcode' href="https://github.com/BambooCode98/weather-app-2" target="_blank" rel="noopener noreferrer">Github Code</a>
+            <a className='plink' href="https://bamboocode98.github.io/weather-app-2/" target="_blank" rel="noopener noreferrer">Weather App</a>
           </div>
           <div className='bubbleDivProject4'>
             <h1 className='p1'>Project 4</h1>
